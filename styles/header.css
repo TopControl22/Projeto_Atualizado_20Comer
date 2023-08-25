@@ -1,0 +1,42 @@
+.cabecalho{
+    background-color: var(--amarelo);
+    margin:0
+}
+.container{
+    display:flex;
+    align-items:center;
+}
+.container_imagem{
+    width: 45px;
+    height: 45px;
+}
+.container_titulo,.container_imagem,.container_frase {
+    padding: 0.1em;
+    color: beige;
+}
+.container_titulo, .container_frase{
+    display:flex;
+}
+.cx-texto{
+    display: flex;
+    justify-content:center;
+}
+.orientacao{
+    display:block;
+    font-size: 30px;
+    color: orangered
+    border: 3px solid white;
+    margin-top: 3em;
+    padding: 1em;
+}
+
+.orientacao, .orientacao2{
+    display:none;
+}
+
+@media screen and (min-width:768px) {
+    .container_titulo{
+        font-size: 30px;
+        display: inline-block;
+    }
+}
